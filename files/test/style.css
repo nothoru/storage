@@ -1,18 +1,41 @@
-header{
-    border: 4px solid blue;
-}
-
-.nav-list{
+.form{
     display: flex;
-    list-style: none;
-    gap: 2rem;
+    padding: 8px;
+    border: 1px solid black;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.nav-list li{
-    background-color: lightblue;
-    flex-shrink: 1;
+
+
+
+.name{
     flex-grow: 1;
-    margin: 10px;
-    flex-basis: 0
-    ;
+    flex-basis: 50px;
+
 }
+
+.email{
+    flex-grow: 3;
+    flex-basis: 170px;
+}
+
+button{
+    flex-grow: 1;
+    flex-basis: 70px;
+}
+
+
+label {
+    font-weight: 500;
+  }
+  input {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 4px;
+  }
+  button {
+    height: 2.5rem;
+  }
