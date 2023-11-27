@@ -1,85 +1,108 @@
-.flex{
+.flex-container{
   display: flex;
-  background-color: #66FFB2;
+  background-color: lightgreen;
   border: 4px solid green;
-  padding: 16px;
+  padding: 20px;
   flex-direction: column;
-   width: 900px;
-  margin: auto; 
-  flex-wrap: wrap;
 }
 
 
-.first-row{
-  background-color: lightblue;
-  border: 4px solid blue;
-  padding: 16px;
-  flex: 1;
+.first{
   display: flex;
+  background-color: lightblue;
+  border: solid 4px blue;
+  flex: 1;
+  height: 100px;
+  padding: 20px;
   gap: 8px;
+  
 }
 
-.first-item{
+.first .item{
+  display: flex;
   background-color: peachpuff;
-  padding: 16px;
   border: 4px solid salmon;
   flex: 1;
-  height: 48px;
-  flex-wrap: wrap;
+  padding: 10px;
+  
 }
 
+
+.first .item.two .child{
+  background-color: lightpink;
+  border: 4px solid red;
+  padding: 20px;
+  flex: 1;
+}
 
 
 .second{
-  background-color: lightpink;
-  border: 4px solid lightcoral;
-  width: 500px;
-  height: 200px;
-  margin-top: 20px;
-}
-
-.third, .fourth{
-  background-color: lightpink;
-  border: 4px solid lightcoral;
-  height:  86px;
-  margin-top: 20px;
-}
-
-.second-row{
   display: flex;
+  margin-top: 10px;
   gap: 8px;
-
 }
 
-.second-direction{
-  flex-direction: column;
-  height: 200px;
+.second-item.one{
+  background-color: #FABBBB;
+  height: 50px;
   flex: 1;
+  border: 4px solid #A52A2A
+}
+
+.second > div:nth-child(1)
+{
+  flex-grow: 2;
+  height: 150px;
 
 }
 
 
-.third-row{
-  background-color: lightblue;
-  padding: 16px;
-  margin-top: 20px;
-  border: 4px solid blue;
+.second .wrapper{
   display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 40px;
+  
+}
+
+.second-item.two, .second-item.three{
+  background-color: #FABBBB;
+  height: 50px;
+  border: 4px solid #A52A2A
+  
+  
+}
+
+
+
+.third{
+  display: flex;
+  /* background-color: #E2DEFF;
+  border: 4px solid #6A5ACD; */
+  margin-top: 10px;
+  height: 100px;
+  background-color: lightblue;
+  border: 4px solid blue;
+  padding: 20px;
   gap: 8px;
 }
 
-.third-item{
-  display: flex;
-  background-color: #D9CAF0;
-  padding: 16px;
-  border: 4px #9F7AD5 solid;
-  flex: 2;
-  height: 48px;
+.third .third-item{
+  flex: 1;
 }
 
-.two, .three{
+
+.third > div:nth-child(1), .third > div:nth-child(4)
+{
+  background-color: #E2DEFF;
+  border: 4px solid #6A5ACD;
+  padding: 20px;
+  flex-grow: 2;
+  
+}
+
+.third > div:nth-child(2), .third > div:nth-child(3)
+{
   background-color: peachpuff;
   border: 4px solid salmon;
-  flex: 1;
- 
 }
