@@ -1,0 +1,100 @@
+@font-face {
+    font-family: SoDoSans;
+    src: url(../SoDoSans-Bold.ttf);
+}
+
+
+body{
+    font-family: sans-serif;
+    background: #04B3E2;
+background: linear-gradient(315deg, #04B3E2, #41A0FD);
+}
+
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1,h2{
+    font-family: SoDoSans;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0px 0px 15px 0px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.menu{
+    width: 80%;
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.item p{
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px 0px;
+    
+}
+
+
+.size{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.established{
+    font-style: italic;
+}
+
+footer{
+    font-size: 14px;
+}
+
+hr{
+    height: 2px;
+    border-color: black;
+    background-color: black;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: brown;
+}
+
+
+img{
+    display: block;
+    margin: -25px auto 0px auto;
+}
+
+
+a:hover{
+    color: blue;
+}

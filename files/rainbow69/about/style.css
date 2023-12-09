@@ -1,0 +1,100 @@
+@font-face {
+    font-family: SoDoSans;
+    src: url(SoDoSans-Bold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SoDoSans, sans-serif;
+}
+
+
+
+.navbar-container{
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    border: solid 1px gray;
+
+background: #04B3E2;
+background: linear-gradient(315deg, #04B3E2, #41A0FD);
+
+}
+
+.navbar{
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+ 
+    align-items: center;
+    gap: 2rem;
+    margin-left: 30px;
+  
+
+}
+
+.signin{
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.box{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 190px;
+    color: white;
+    margin-left: 175px;
+    
+}
+
+.box .item-one{
+    height: 425px;
+    width: 1450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box{
+
+background: #85DEE0;
+background: linear-gradient(135deg, #85DEE0, #1E2E9B);
+}
+
+
+h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    
+}
+
+p{
+    text-align: center;
+}
+
+a:hover{
+    color: blue;
+}
