@@ -1,61 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-ul{
+.container{
     display: flex;
-    list-style-type: none;
-    gap: 32px;
-    padding: 20px;
-    font-size: large;
-}
-
-
-li.logo{
-    margin-right: auto;
-    font-family: Playfair Display;
-}
-
-
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-
-.body{
-    display: flex;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #AA5649;
+    align-items: center;
+    padding: 20px;
+    color: #FFFFE4;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #AA5649;
+    color: #FFFFE4;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+
+
+.hero h1{
+    font-size: 48px;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+.hero button{
+    width: 50px;
+}
+
+
+.collection{
+    padding: 50px;
     text-align: center;
-    gap: 64px;
 }
 
-.body h1{
-    font-size: 100px;
-    font-family: Playfair Display;
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
+.info img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #AA5649;
+    border-radius: 15px;
+}
 
-.about a{
-    border-radius: 5px;
-    border: solid black;
-    padding: 10px 20px;
-    background-color: black;
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.q-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote b{
+    align-self: flex-end;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    flex-basis: 700px;
+    background-color: #3882f6;
+    padding: 50px;
     color: white;
-
 }
 
-
-a:hover{
-    color: #994C00;
+footer{
+    background-color: #AA5649;
+    text-align: center;
+    padding: 25px;
+    color:#FFFFE4;
 }
